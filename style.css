@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/img/net\ back\ 1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 125px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(124, 123, 123);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+
+.text {
+    color: white;
+    margin-left: 190px;
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+
+}
+
+.movie {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.movie img {
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+    gap: 30px;
+
+}
+
+.number {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(228, 224, 224);
+    text-shadow: 2px 2px 5px black;
+    z-index: 1;
+}
+
+.text2 {
+    color: white;
+    margin-left: 190px;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: 800;
+    margin-bottom:30px;
+
+}
+
+.laam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.laam p{
+    font-size:1.2rem;
+}
+
+.box1 {
+
+    height: 250px;
+    width: 15%;
+
+    background: linear-gradient(to bottom, #3a0ca3, #5f0f40, #480ca8, #3c096c, #240046);
+
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+.box2 {
+
+    height: 250px;
+    width: 15%;
+    background: linear-gradient(to bottom, #3a0ca3, #5f0f40, #480ca8, #3c096c, #240046);
+
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.box3 {
+
+    height: 250px;
+    width: 15%;
+    background: linear-gradient(to bottom, #3a0ca3, #5f0f40, #480ca8, #3c096c, #240046);
+
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.box4 {
+
+    height: 250px;
+    width: 15%;
+    background: linear-gradient(to bottom, #3a0ca3, #5f0f40, #480ca8, #3c096c, #240046);
+ 
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.faq {
+    color: white;
+    margin-left: 190px;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 800;
+}
+.dabba1{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+}
+
+.dabba2{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+
+}
+
+.dabba3{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+
+}
+
+.dabba4{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+
+}
+
+.dabba5{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+
+}
+
+.dabba6{
+    display: flex;
+    background-color: rgb(75, 73, 73);
+    padding: 24px;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+
+}
+.footer{
+    color: white;
+    text-align: center;
+    
+}
+.last{
+    color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-color: #000; 
+  margin-right: 180px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  font-size: medium;
+  margin-bottom: 40px;
+  
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
